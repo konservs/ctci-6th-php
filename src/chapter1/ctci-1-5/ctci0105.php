@@ -76,19 +76,3 @@ function checkStringModification($a, $b){
 		return false;
 		}
 	}
-
-$a = checkStringModification('pale','ple');
-echo 'pale, ple    ';
-var_dump($a);
-
-$a = checkStringModification('pales','pale');
-echo 'pales, pale  ';
-var_dump($a);
-
-$a = checkStringModification('pale','bale');
-echo 'pale, bale   ';
-var_dump($a);
-
-$a = checkStringModification('pale','bake');
-echo 'pale, bake   ';
-var_dump($a);

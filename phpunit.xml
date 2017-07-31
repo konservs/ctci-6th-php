@@ -1,0 +1,14 @@
+<phpunit>
+	<testsuites>
+		<!-- Tests for chapter 1 -->
+		<testsuite name="Tests for chapter 1">
+			<directory suffix="Test.php">./tests/chapter1/</directory>
+		</testsuite>
+		<!-- Tests for chapter 2 -->
+		<testsuite name="Tests for chapter 2">
+			<directory suffix="Test.php">./tests/chapter2/</directory>
+		</testsuite>
+
+
+	</testsuites>
+</phpunit>
