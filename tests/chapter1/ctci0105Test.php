@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../src/chapter1/ctci-1-5/ctci0105.php';
 
-class MapUniquenessDetectorTest extends \PHPUnit\Framework\TestCase {
+class CTCI0105Test extends \PHPUnit\Framework\TestCase {
 	public function testAdd() {
 		//Add - true
 		$this->assertTrue(checkStringModification('pales','pale'));
